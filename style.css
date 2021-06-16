@@ -51,7 +51,9 @@ nav {
     height: 10%;
 }
 
-#header__logo{}
+#header__logo{
+    
+}
 
 #header__menu{
     display: flex;
