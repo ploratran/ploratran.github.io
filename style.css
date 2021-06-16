@@ -74,7 +74,7 @@ nav {
     text-decoration: underline;
 }
 
-#main {
+#main__1 {
     display: flex;
     flex-direction: row;
     height: 80%;
@@ -109,13 +109,17 @@ nav {
 }
 
 
-#main__2 {}
-  
-#cards {
-    list-style: none;
+#main__2 {
     display: flex;
     flex-direction: row;
-    height: 80%;
+    height: 50vh;
+    margin: 10vh;
+}
+  
+#cards {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
   
 #card {
@@ -125,4 +129,9 @@ nav {
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 0 6rem rgba(black, 0.1);
+}
+
+#main__3 {
+    height: 40vh;
+    margin: 10vh;
 }
